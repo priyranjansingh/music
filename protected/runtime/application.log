@@ -1,0 +1,16 @@
+2016/03/06 23:06:10 [error] [php] Undefined index: album (C:\xampp\htdocs\music\protected\modules\admin\controllers\AlbumsController.php:139)
+Stack trace:
+#0 C:\xampp\htdocs\music\framework\web\filters\CFilterChain.php(133): AlbumsController->runAction()
+#1 C:\xampp\htdocs\music\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\music\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\music\framework\web\filters\CInlineFilter.php(58): AlbumsController->filterAccessControl()
+#4 C:\xampp\htdocs\music\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\music\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\music\framework\web\CController.php(265): AlbumsController->runActionWithFilters()
+#7 C:\xampp\htdocs\music\framework\web\CWebApplication.php(282): AlbumsController->run()
+#8 C:\xampp\htdocs\music\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\music\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\music\index.php(13): CWebApplication->run()
+REQUEST_URI=/music/admin/albums/addadditionalrow
+in C:\xampp\htdocs\music\protected\modules\admin\controllers\AlbumsController.php (139)
+in C:\xampp\htdocs\music\index.php (13)
