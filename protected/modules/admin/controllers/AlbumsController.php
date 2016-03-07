@@ -105,18 +105,28 @@ class AlbumsController extends Controller
 	{
 		$album = $this->loadModel($album);
 		$genres = CHtml::listData(BaseModel::getAll('Genres'),'id','genre');
-		$track = array();
-		$track[] = new Tracks;
+		
+		$track = BaseModel::getAll('Tracks',array('condition' => "album = '$album->id'"));
+		if(empty($track)){
+			$track = array();
+			$track[] = new Tracks;
+		}
 		if (isset($_POST['Tracks'])) {
+            for($i = 0; $i < sizeof($_FILES['Tracks']['name']); $i++){
+            	$name = $_FILES['Tracks']['name'][$i]['path'];
+            	$tmp_name = $_FILES['Tracks']['tmp_name'][$i]['path'];
+            	$type = $_FILES['Tracks']['type'][$i]['path'];
+            	$path[$i] = uploadSong($name, $type, $tmp_name, 'tracks');
+            }
             foreach ($_POST['Tracks'] as $i => $single) {
-                $model = new Tracks();
+            	$model = new Tracks();
                 $model->attributes = $single;
                 $model->album = $album->id;
-                $model->save();	
+                $model->path = $path[$i];
+                $model->save();
             }
-            // $this->redirect(array("view",'id'=>$album));
+            $this->redirect(array("view",'id'=>$album->id));
         }
-        
         $this->render('add-track',array('album' => $album,'track' => $track,'genres' => $genres));
 	}
 
@@ -225,6 +235,12 @@ class AlbumsController extends Controller
 
 	protected function gridAddTrack($data)
 	{
-		return "<a href='".base_url()."/admin/albums/addtrack?album=".$data->id."'>Add Tracks</a>";
+		$track = BaseModel::getAll('Tracks',array('condition' => "album = '$data->id'"));
+		if(empty($track)){
+			return "<a href='".base_url()."/admin/albums/addtrack?album=".$data->id."'>Add Tracks</a>";
+		} else {
+			return "<a href='".base_url()."/admin/albums/addtrack?album=".$data->id."'>Update Tracks</a>";
+		}
+		
 	}
 }

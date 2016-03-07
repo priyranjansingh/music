@@ -32,6 +32,7 @@
             </div>
             <div class="col-xs-6">
                 <?php echo $form->labelEx($single,"[$i]path"); ?>
+                <?php if(!empty($single->path)){ echo "Song File: ".substr($single->path,14);} ?>
     			<?php echo $form->fileField($single,"[$i]path",array('size'=>60,'maxlength'=>255,'class' => 'form-control')); ?>
     			<?php echo $form->error($single,"[$i]path"); ?>
             </div>

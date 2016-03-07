@@ -1,60 +1,23 @@
-<?php
-/* @var $this GenresController */
-/* @var $model Genres */
-/* @var $form CActiveForm */
-?>
-
-<div class="wide form">
-
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'action'=>Yii::app()->createUrl($this->route),
 	'method'=>'get',
+	'htmlOptions'=>array('class' => 'search-form')
 )); ?>
-
-	<div class="row">
-		<?php echo $form->label($model,'id'); ?>
-		<?php echo $form->textField($model,'id',array('size'=>36,'maxlength'=>36)); ?>
+<div class="box-body">
+	<div class="form-group">
+		<div class="col-xs-3">
+			<?php echo $form->label($model,'genre'); ?>
+			<?php echo $form->textField($model,'genre',array('size'=>60,'maxlength'=>255,'class' => 'form-control')); ?>
+		</div>
+		<div class="col-xs-3">
+			
+		</div>
+		<div class="col-xs-3"></div>
+		<div class="col-xs-3"></div>
 	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'genre'); ?>
-		<?php echo $form->textField($model,'genre',array('size'=>60,'maxlength'=>128)); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'status'); ?>
-		<?php echo $form->textField($model,'status'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'deleted'); ?>
-		<?php echo $form->textField($model,'deleted'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'date_entered'); ?>
-		<?php echo $form->textField($model,'date_entered'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'date_modified'); ?>
-		<?php echo $form->textField($model,'date_modified'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'created_by'); ?>
-		<?php echo $form->textField($model,'created_by',array('size'=>36,'maxlength'=>36)); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'modified_by'); ?>
-		<?php echo $form->textField($model,'modified_by',array('size'=>36,'maxlength'=>36)); ?>
-	</div>
-
-	<div class="row buttons">
-		<?php echo CHtml::submitButton('Search'); ?>
-	</div>
-
+</div>
+<div class="box-footer">
+	<?php echo CHtml::submitButton('Search',array("class" => 'btn btn-info search-button')); ?>
+	<a href="<?php echo base_url().'/admin/genres/manage' ?>" class="btn btn-warning">Clear</a>
+</div>
 <?php $this->endWidget(); ?>
-
-</div><!-- search-form -->

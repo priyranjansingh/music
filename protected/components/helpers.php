@@ -129,10 +129,6 @@ function uploadFile($name, $type, $tmp_name, $path) {
     $tmp = explode('.', $name);
     $extension = end($tmp);
     $randomName = rand(123456, 1234567890) . '.' . $extension;
-//            echo $target_path;
-//            die("here");
-    /* Add the original filename to our target path.  
-      Result is "images/uploads/filename.extension" */
     $target_path = $target_path . basename($randomName);
     $allowedImageTypes = array("application/octet-stream",
         "text/plain", "image/jpeg",
@@ -149,6 +145,36 @@ function uploadFile($name, $type, $tmp_name, $path) {
         move_uploaded_file($tmp_name, $target_path) or die("error!");
     }
     return $randomName;
+}
+
+function uploadSong($name, $type, $tmp_name, $path)
+{
+    $base_path = Yii::app()->params['upload_path'];
+    $target_path = $base_path . $path . "/";
+    $target_path = $target_path . basename($name);
+    $allowedSongTypes = array('audio/mp3','audio/x-mp3', 'audio/x-mpeg-3', 'audio/mpeg3');
+    if (in_array($type, $allowedSongTypes)) {
+        move_uploaded_file($tmp_name, $target_path) or die('error!');
+    }
+    return $target_path;
+/*
+    if(is_uploaded_file($tmp_name) && in_array($type, $mimes))
+    {
+        $base_path = Yii::app()->params['upload_path'];
+        $target_path = $base_path . $path . "/";
+        $uploadFile = $target_path . urlencode($name);
+        echo $tmp_name.'<br/>';
+        echo $uploadFile.'<br/>';
+        die;
+        if (move_uploaded_file($tmp_name, $uploadFile)){       
+            return $uploadFile;
+        } else {
+            return false;    
+        }
+    } else {
+        die("i am here");
+        return false;
+    }*/
 }
 
 function trimString($string,$len = 200) {

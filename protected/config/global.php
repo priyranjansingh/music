@@ -2,7 +2,7 @@
 
 $global = array(
     'adminEmail' => 'webmaster@example.com',
-    'upload_path' => 'images/',
+    'upload_path' => 'assets/',
     'gender' => array('male' => 'Male', 'female' => 'Female'),
     'payment_status' => array('transferred' => 'Transferred', 'cancelled' => 'Cancelled', 'pending' => 'Pending'),
     'user_payment_status' => array('a' => 'Approved', 'p' => 'Pending', 'c' => 'Cancel'),

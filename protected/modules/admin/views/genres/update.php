@@ -1,21 +1,23 @@
-<?php
-/* @var $this GenresController */
-/* @var $model Genres */
-
-$this->breadcrumbs=array(
-	'Genres'=>array('index'),
-	$model->id=>array('view','id'=>$model->id),
-	'Update',
-);
-
-$this->menu=array(
-	array('label'=>'List Genres', 'url'=>array('index')),
-	array('label'=>'Create Genres', 'url'=>array('create')),
-	array('label'=>'View Genres', 'url'=>array('view', 'id'=>$model->id)),
-	array('label'=>'Manage Genres', 'url'=>array('admin')),
-);
-?>
-
-<h1>Update Genres <?php echo $model->id; ?></h1>
-
-<?php $this->renderPartial('_form', array('model'=>$model)); ?>
+ <section class="content-header">
+  <h1>
+    Update
+    <small>Genre</small>
+  </h1>
+  <ol class="breadcrumb">
+    <li><a href="<?php echo base_url().'/admin/dashboard'; ?>"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+    <li><a href="<?php echo base_url().'/admin/genres'; ?>"><i class="fa fa-dashboard"></i> Genres</a></li>
+    <li class="active">Add</li>
+  </ol>
+</section>
+<section class="content">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="box box-info">
+				<div class="box-header with-border">
+					<h3 class="box-title"><?php echo $model->genre; ?></h3>
+				</div>
+				<?php $this->renderPartial('_form', array('model'=>$model)); ?>
+			</div>
+		</div>
+	</div>
+</section>
