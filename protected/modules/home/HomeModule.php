@@ -8,6 +8,8 @@ class HomeModule extends CWebModule
 		// you may place code here to customize the module or the application
 
 		// import the module-level models and components
+               Yii::app()->theme = 'frontend';
+                
 		$this->setImport(array(
 			'home.models.*',
 			'home.components.*',
