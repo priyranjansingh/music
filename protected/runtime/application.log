@@ -1960,3 +1960,107 @@ REQUEST_URI=/music/home
 in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (5)
 in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (7)
 in C:\xampp\htdocs\music\index.php (13)
+2016/03/09 02:27:04 [error] [php] include(Users.php): failed to open stream: No such file or directory (C:\xampp\htdocs\music\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\music\themes\admin\views\layouts\main.php(67): spl_autoload_call()
+#1 C:\xampp\htdocs\music\framework\web\CBaseController.php(126): require()
+#2 C:\xampp\htdocs\music\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 C:\xampp\htdocs\music\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#4 C:\xampp\htdocs\music\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#5 C:\xampp\htdocs\music\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#6 C:\xampp\htdocs\music\framework\web\CBaseController.php(214): CContentDecorator->run()
+#7 C:\xampp\htdocs\music\framework\web\CBaseController.php(308): SiteController->endWidget()
+#8 C:\xampp\htdocs\music\themes\admin\views\layouts\column1.php(4): SiteController->endContent()
+#9 C:\xampp\htdocs\music\framework\web\CBaseController.php(126): require()
+#10 C:\xampp\htdocs\music\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#11 C:\xampp\htdocs\music\framework\web\CController.php(784): SiteController->renderFile()
+#12 C:\xampp\htdocs\music\protected\controllers\SiteController.php(32): SiteController->render()
+#13 C:\xampp\htdocs\music\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\music\framework\web\CController.php(308): CInlineAction->runWithParams()
+#15 C:\xampp\htdocs\music\framework\web\CController.php(286): SiteController->runAction()
+#16 C:\xampp\htdocs\music\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#17 C:\xampp\htdocs\music\framework\web\CWebApplication.php(282): SiteController->run()
+#18 C:\xampp\htdocs\music\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 C:\xampp\htdocs\music\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\music\index.php(13): CWebApplication->run()
+REQUEST_URI=/music/
+in C:\xampp\htdocs\music\themes\admin\views\layouts\main.php (67)
+in C:\xampp\htdocs\music\themes\admin\views\layouts\column1.php (4)
+in C:\xampp\htdocs\music\protected\controllers\SiteController.php (32)
+2016/03/09 02:31:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in C:\xampp\htdocs\music\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\music\framework\web\CController.php(270): CController->missingAction('create')
+#1 C:\xampp\htdocs\music\framework\web\CWebApplication.php(282): CController->run('create')
+#2 C:\xampp\htdocs\music\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/tracks/cr...')
+#3 C:\xampp\htdocs\music\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\music\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/music/index.php/admin/tracks/create
+---
+2016/03/09 03:03:01 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php:8)
+Stack trace:
+#0 C:\xampp\htdocs\music\framework\web\CController.php(286): DefaultController->runAction()
+#1 C:\xampp\htdocs\music\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\music\framework\web\CWebApplication.php(282): DefaultController->run()
+#3 C:\xampp\htdocs\music\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\music\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\music\index.php(13): CWebApplication->run()
+REQUEST_URI=/music/home
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (8)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/09 03:05:03 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php:8)
+Stack trace:
+#0 C:\xampp\htdocs\music\framework\web\CController.php(286): DefaultController->runAction()
+#1 C:\xampp\htdocs\music\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#2 C:\xampp\htdocs\music\framework\web\CWebApplication.php(282): DefaultController->run()
+#3 C:\xampp\htdocs\music\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\music\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\music\index.php(13): CWebApplication->run()
+REQUEST_URI=/music/home
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (8)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/09 03:35:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/default/frontend/assets/albums/album1.JPG".' in C:\xampp\htdocs\music\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\music\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/default/...')
+#1 C:\xampp\htdocs\music\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\music\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/music/themes/frontend/assets/albums/album1.JPG
+HTTP_REFERER=http://localhost/music/home
+---
+2016/03/09 03:35:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/default/frontend/assets/albums/album2.jpg".' in C:\xampp\htdocs\music\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\music\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/default/...')
+#1 C:\xampp\htdocs\music\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\music\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/music/themes/frontend/assets/albums/album2.jpg
+HTTP_REFERER=http://localhost/music/home
+---
+2016/03/09 03:35:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/default/frontend/assets/albums/Album Name.PNG".' in C:\xampp\htdocs\music\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\music\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/default/...')
+#1 C:\xampp\htdocs\music\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\music\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/music/themes/frontend/assets/albums/Album%20Name.PNG
+HTTP_REFERER=http://localhost/music/home
+---
+2016/03/09 03:35:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/default/frontend/assets/albums/testalbum.jpg".' in C:\xampp\htdocs\music\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\music\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/default/...')
+#1 C:\xampp\htdocs\music\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\music\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/music/themes/frontend/assets/albums/testalbum.jpg
+HTTP_REFERER=http://localhost/music/home
+---
+2016/03/09 03:35:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/default/frontend/assets/albums/album3.jpg".' in C:\xampp\htdocs\music\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\music\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/default/...')
+#1 C:\xampp\htdocs\music\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\music\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/music/themes/frontend/assets/albums/album3.jpg
+HTTP_REFERER=http://localhost/music/home
+---
