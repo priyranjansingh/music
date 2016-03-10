@@ -1,37 +1,47 @@
-<?php
-/* @var $this TracksController */
-/* @var $model Tracks */
+<section class="content-header">
+    <h1>
+        Tracks
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="<?php echo base_url() . '/admin/dashboard'; ?>"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+        <li><a href="<?php echo base_url() . '/admin/tracks'; ?>"><i class="fa fa-dashboard"></i> Tracks</a></li>
+        <li class="active">View</li>
+    </ol>
+</section>
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box box-info">
+                <div class="box-header with-border">
+                    <h3 class="box-title">
+                    	<?php echo $model->song_name; ?> 
+                    		<small>
+                    			<a href="<?php echo base_url() . '/admin/tracks/delete?id=' . $model->id; ?>">DELETE</a>
+                    		</small>
+                    </h3>
+                </div>
+                <div class="box-body">
+                    <div class="col-xs-12 table-responsive">
+                        <?php
+                        $this->widget('zii.widgets.CDetailView', array(
+                            // 'itemsCssClass' => 'table table-bordered table-hover dataTable',
+                            'htmlOptions' => array("class" => "table table-bordered table-hover dataTable"),
+                            'data' => $model,
+                            'attributes' => array(
+                                'album',
+								'song_name',
+								'artist_name',
+								'genre',
+                            ),
+                        ));
+                        ?>
+                        <div class="col-xs-12">
+                             <?php echo CHtml::link('Back', array('/admin/tracks'), array("class" => 'btn btn-info pull-right', "style" => "margin-left:10px;")); ?>
+                        </div>
+                    </div>
 
-$this->breadcrumbs=array(
-	'Tracks'=>array('index'),
-	$model->id,
-);
-
-$this->menu=array(
-	array('label'=>'List Tracks', 'url'=>array('index')),
-	array('label'=>'Create Tracks', 'url'=>array('create')),
-	array('label'=>'Update Tracks', 'url'=>array('update', 'id'=>$model->id)),
-	array('label'=>'Delete Tracks', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Tracks', 'url'=>array('admin')),
-);
-?>
-
-<h1>View Tracks #<?php echo $model->id; ?></h1>
-
-<?php $this->widget('zii.widgets.CDetailView', array(
-	'data'=>$model,
-	'attributes'=>array(
-		'id',
-		'album',
-		'song_name',
-		'artist_name',
-		'category',
-		'path',
-		'status',
-		'deleted',
-		'date_entered',
-		'date_modified',
-		'created_by',
-		'modified_by',
-	),
-)); ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

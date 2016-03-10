@@ -6,7 +6,7 @@
   <ol class="breadcrumb">
     <li><a href="<?php echo base_url().'/admin/dashboard'; ?>"><i class="fa fa-dashboard"></i> Dashboard</a></li>
     <li><a href="<?php echo base_url().'/admin/albums'; ?>"><i class="fa fa-dashboard"></i> Albums</a></li>
-    <li class="active">Add</li>
+    <li class="active">Update</li>
   </ol>
 </section>
 <section class="content">

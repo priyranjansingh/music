@@ -23,6 +23,7 @@ class Users extends BaseModel
 	/**
 	 * @return string the associated database table name
 	 */
+	public $verifyPassword;
 	public function tableName()
 	{
 		return 'users';
@@ -36,10 +37,13 @@ class Users extends BaseModel
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id, username, password, firstname, lastname, email, mobile, date_entered, date_modified, created_by, modified_by', 'required'),
+			array('id, username, password, verifyPassword, firstname, lastname, email, mobile, date_entered, date_modified, created_by, modified_by', 'required'),
+			array('username','unique', 'message'=>'Please choose different username.'),
+			array('email','unique', 'message'=>'Email already present in our database.'),
+			array('password', 'compare', 'compareAttribute'=>'verifyPassword' , 'message'=>'Password Does not Matches!'),
 			array('status, deleted', 'numerical', 'integerOnly'=>true),
 			array('id, created_by, modified_by', 'length', 'max'=>36),
-			array('username, password, firstname, lastname, email', 'length', 'max'=>128),
+			array('username, password, verifyPassword, firstname, lastname, email', 'length', 'max'=>128),
 			array('mobile', 'length', 'max'=>16),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
@@ -67,6 +71,7 @@ class Users extends BaseModel
 			'id' => 'ID',
 			'username' => 'Username',
 			'password' => 'Password',
+			'verifyPassword' => 'Verify Password',
 			'firstname' => 'Firstname',
 			'lastname' => 'Lastname',
 			'email' => 'Email',
