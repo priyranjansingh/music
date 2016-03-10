@@ -11627,3 +11627,1254 @@ in C:\xampp\htdocs\music\index.php (13)
 in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (87)
 in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
 in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:27:07 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:27:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:27:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:27:07 [trace] [system.db.ar.CActiveRecord] Albums.findAll()
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:27:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE status =  1 AND deleted = 0 ORDER BY date_entered DESC LIMIT 20
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:27:07 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (86)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:27:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (86)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:27:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (86)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:27:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (86)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:28:06 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:28:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:28:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:28:07 [trace] [system.db.ar.CActiveRecord] Albums.findAll()
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:28:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE status =  1 AND deleted = 0 ORDER BY date_entered DESC LIMIT 20
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:28:07 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (86)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:28:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (86)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:28:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (86)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:28:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (86)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:29:02 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:29:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:29:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:29:02 [trace] [system.db.ar.CActiveRecord] Albums.findAll()
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:29:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE status =  1 AND deleted = 0 ORDER BY date_entered DESC LIMIT 20
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:29:02 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (86)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:29:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (86)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:29:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (86)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:29:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (86)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:29:26 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:29:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:29:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:29:26 [trace] [system.db.ar.CActiveRecord] Albums.findAll()
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:29:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE status =  1 AND deleted = 0 ORDER BY date_entered DESC LIMIT 20
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:29:26 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:29:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:29:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:29:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:33:48 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:33:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:33:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:33:48 [trace] [system.db.ar.CActiveRecord] Albums.findAll()
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:33:48 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE status =  1 AND deleted = 0 ORDER BY date_entered DESC LIMIT 20
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:33:48 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:33:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:33:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:33:48 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:34:44 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:34:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:34:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:34:45 [trace] [system.db.ar.CActiveRecord] Albums.findAll()
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:34:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE status =  1 AND deleted = 0 ORDER BY date_entered DESC LIMIT 20
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:34:45 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:34:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:34:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:34:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:35:44 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:35:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:35:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:35:44 [trace] [system.db.ar.CActiveRecord] Albums.findAll()
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:35:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE status =  1 AND deleted = 0 ORDER BY date_entered DESC LIMIT 20
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:35:44 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:35:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:35:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:35:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:36:32 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:36:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:36:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:36:32 [trace] [system.db.ar.CActiveRecord] Albums.findAll()
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:36:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE status =  1 AND deleted = 0 ORDER BY date_entered DESC LIMIT 20
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:36:32 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:36:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:36:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:36:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:36:55 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:36:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:36:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:36:55 [trace] [system.db.ar.CActiveRecord] Albums.findAll()
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:36:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE status =  1 AND deleted = 0 ORDER BY date_entered DESC LIMIT 20
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:36:55 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:36:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:36:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:36:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:38:43 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:38:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:38:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:38:43 [trace] [system.db.ar.CActiveRecord] Albums.findAll()
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:38:43 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE status =  1 AND deleted = 0 ORDER BY date_entered DESC LIMIT 20
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:38:43 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:38:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:38:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:38:43 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (64)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:39:26 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:39:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:39:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:39:26 [trace] [system.db.ar.CActiveRecord] Albums.findAll()
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:39:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE status =  1 AND deleted = 0 ORDER BY date_entered DESC LIMIT 20
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:39:26 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:39:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:39:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:39:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:41:17 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:41:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:41:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:41:17 [trace] [system.db.ar.CActiveRecord] Albums.findAll()
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:41:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE status =  1 AND deleted = 0 ORDER BY date_entered DESC LIMIT 20
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:41:17 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:41:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:41:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:41:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:41:32 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:41:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:41:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:41:32 [trace] [system.db.ar.CActiveRecord] Albums.findAll()
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:41:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE status =  1 AND deleted = 0 ORDER BY date_entered DESC LIMIT 20
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:41:32 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:41:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:41:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:41:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:45:56 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:45:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:45:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:45:56 [trace] [system.db.ar.CActiveRecord] Albums.findAll()
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:45:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE status =  1 AND deleted = 0 ORDER BY date_entered DESC LIMIT 20
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:45:56 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:45:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:45:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:45:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:47:10 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:47:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:47:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:47:10 [trace] [system.db.ar.CActiveRecord] Albums.findAll()
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:47:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE status =  1 AND deleted = 0 ORDER BY date_entered DESC LIMIT 20
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:47:10 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:47:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:47:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:47:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:48:33 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:48:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:48:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:48:33 [trace] [system.db.ar.CActiveRecord] Albums.findAll()
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:48:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE status =  1 AND deleted = 0 ORDER BY date_entered DESC LIMIT 20
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:48:33 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:48:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:48:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:48:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:49:01 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:49:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:49:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:49:01 [trace] [system.db.ar.CActiveRecord] Albums.findAll()
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:49:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE status =  1 AND deleted = 0 ORDER BY date_entered DESC LIMIT 20
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:49:01 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:49:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:49:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:49:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:51:53 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (9)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:51:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (9)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:51:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (9)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:51:53 [trace] [system.db.ar.CActiveRecord] Albums.findAll()
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (9)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:51:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE status =  1 AND deleted = 0 ORDER BY date_entered DESC
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (9)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:51:53 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (37)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:51:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (37)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:51:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (37)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:51:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (37)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:52:04 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:52:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:52:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:52:04 [trace] [system.db.ar.CActiveRecord] Albums.findAll()
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:52:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE status =  1 AND deleted = 0 ORDER BY date_entered DESC LIMIT 20
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:52:04 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:52:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:52:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:52:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\home\views\default\index.php (54)
+in C:\xampp\htdocs\music\protected\modules\home\controllers\DefaultController.php (12)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:56:43 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (9)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:56:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (9)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:56:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (9)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:56:43 [trace] [system.db.ar.CActiveRecord] Albums.findAll()
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (9)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:56:43 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE status =  1 AND deleted = 0 ORDER BY date_entered DESC
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (9)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:56:43 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (49)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:56:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (49)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:56:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (49)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 20:56:43 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (49)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (10)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:01:16 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (9)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:01:16 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (9)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:01:16 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (79)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (9)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:01:16 [trace] [system.db.ar.CActiveRecord] Albums.findAll()
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (9)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:01:16 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE status =  1 AND deleted = 0 ORDER BY date_entered DESC
+in C:\xampp\htdocs\music\protected\models\BaseModel.php (87)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (9)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:21:16 [trace] [system.db.ar.CActiveRecord] Albums.count()
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (31)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (24)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:21:16 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (31)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (24)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:21:16 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (31)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (24)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:21:16 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (31)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (24)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:21:16 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `albums` `t` WHERE status = 1 AND deleted = 0
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (31)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (24)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:21:16 [trace] [system.db.ar.CActiveRecord] Albums.findAll()
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (31)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (24)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:21:16 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE status = 1 AND deleted = 0 ORDER BY date_entered DESC LIMIT 15
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (31)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (24)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:21:16 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\_albums.php (16)
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (31)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (24)
+2016/03/10 21:21:16 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\_albums.php (16)
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (31)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (24)
+2016/03/10 21:21:16 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\_albums.php (16)
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (31)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (24)
+2016/03/10 21:21:16 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\_albums.php (16)
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (31)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (24)
+2016/03/10 21:34:44 [trace] [system.db.ar.CActiveRecord] Albums.count()
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (31)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (24)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:34:44 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (31)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (24)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:34:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (31)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (24)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:34:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (31)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (24)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:34:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `albums` `t` WHERE status = 1 AND deleted = 0
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (31)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (24)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:34:44 [trace] [system.db.ar.CActiveRecord] Albums.findAll()
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (31)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (24)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:34:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE status = 1 AND deleted = 0 ORDER BY date_entered DESC LIMIT 15
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (31)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (24)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:34:44 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\_albums.php (16)
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (31)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (24)
+2016/03/10 21:34:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\_albums.php (16)
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (31)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (24)
+2016/03/10 21:34:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\_albums.php (16)
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (31)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (24)
+2016/03/10 21:34:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\_albums.php (16)
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (31)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (24)
+2016/03/10 21:34:50 [trace] [system.db.ar.CActiveRecord] Albums.findByPk()
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:34:50 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:34:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:34:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:34:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE `t`.`id`='bd30fd8b-5b78-e2e7-a472-56dc8f45928e' LIMIT 1
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:34:50 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (30)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:34:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (30)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:34:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (30)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:34:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (30)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:48:24 [trace] [system.db.ar.CActiveRecord] Albums.findByPk()
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:48:24 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:48:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:48:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:48:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE `t`.`id`='bd30fd8b-5b78-e2e7-a472-56dc8f45928e' LIMIT 1
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:48:24 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (30)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:48:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (30)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:48:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (30)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:48:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (30)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:48:35 [trace] [system.db.ar.CActiveRecord] Albums.findByPk()
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:48:35 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:48:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:48:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:48:35 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE `t`.`id`='bd30fd8b-5b78-e2e7-a472-56dc8f45928e' LIMIT 1
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:48:35 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (30)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:48:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (30)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:48:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (30)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:48:35 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (30)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:48:55 [trace] [system.db.ar.CActiveRecord] Albums.findByPk()
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:48:55 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:48:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:48:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE `t`.`id`='bd30fd8b-5b78-e2e7-a472-56dc8f45928e' LIMIT 1
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:49:30 [trace] [system.db.ar.CActiveRecord] Albums.findByPk()
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:49:30 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:49:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:49:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:49:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE `t`.`id`='bd30fd8b-5b78-e2e7-a472-56dc8f45928e' LIMIT 1
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:49:57 [trace] [system.db.ar.CActiveRecord] Albums.findByPk()
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:49:57 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:49:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:49:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:49:57 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE `t`.`id`='bd30fd8b-5b78-e2e7-a472-56dc8f45928e' LIMIT 1
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:17:39 [trace] [system.db.ar.CActiveRecord] Albums.findByPk()
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:17:39 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:17:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:17:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:17:39 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE `t`.`id`='bd30fd8b-5b78-e2e7-a472-56dc8f45928e' LIMIT 1
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:17:39 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (30)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:17:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (30)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:17:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (30)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:17:39 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (30)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:18:33 [trace] [system.db.ar.CActiveRecord] Albums.findByPk()
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:18:33 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:18:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:18:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:18:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE `t`.`id`='bd30fd8b-5b78-e2e7-a472-56dc8f45928e' LIMIT 1
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:18:33 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (30)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:18:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (30)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:18:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (30)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:18:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (30)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:21:13 [trace] [system.db.ar.CActiveRecord] Albums.findByPk()
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:21:13 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:21:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:21:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:21:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE `t`.`id`='bd30fd8b-5b78-e2e7-a472-56dc8f45928e' LIMIT 1
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:21:13 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (30)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:21:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (30)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:21:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (30)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:21:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (30)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:40:11 [trace] [system.db.ar.CActiveRecord] Albums.findByPk()
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:40:11 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:40:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:40:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:40:11 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE `t`.`id`='bd30fd8b-5b78-e2e7-a472-56dc8f45928e' LIMIT 1
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:40:11 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:40:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:40:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:40:11 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:42:15 [trace] [system.db.ar.CActiveRecord] Albums.findByPk()
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:42:15 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:42:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:42:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:42:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE `t`.`id`='bd30fd8b-5b78-e2e7-a472-56dc8f45928e' LIMIT 1
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:42:15 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:42:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:42:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:42:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:42:37 [trace] [system.db.ar.CActiveRecord] Albums.findByPk()
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:42:37 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:42:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:42:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:42:38 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE `t`.`id`='bd30fd8b-5b78-e2e7-a472-56dc8f45928e' LIMIT 1
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:42:38 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:42:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:42:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:42:38 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:45:21 [trace] [system.db.ar.CActiveRecord] Albums.findByPk()
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:45:21 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:45:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:45:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:45:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE `t`.`id`='bd30fd8b-5b78-e2e7-a472-56dc8f45928e' LIMIT 1
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:45:21 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:45:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:45:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:45:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:46:10 [trace] [system.db.ar.CActiveRecord] Albums.findByPk()
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:46:10 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:46:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:46:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:46:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE `t`.`id`='bd30fd8b-5b78-e2e7-a472-56dc8f45928e' LIMIT 1
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:46:10 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:46:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:46:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:46:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:46:28 [trace] [system.db.ar.CActiveRecord] Albums.findByPk()
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:46:28 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:46:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:46:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:46:28 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE `t`.`id`='bd30fd8b-5b78-e2e7-a472-56dc8f45928e' LIMIT 1
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:46:28 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:46:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:46:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:46:28 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:47:25 [trace] [system.db.ar.CActiveRecord] Albums.findByPk()
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:47:25 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:47:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:47:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:47:25 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE `t`.`id`='bd30fd8b-5b78-e2e7-a472-56dc8f45928e' LIMIT 1
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:47:25 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:47:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:47:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:47:25 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:49:51 [trace] [system.db.ar.CActiveRecord] Albums.findByPk()
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:49:51 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:49:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:49:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `albums`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:49:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `albums` `t` WHERE `t`.`id`='bd30fd8b-5b78-e2e7-a472-56dc8f45928e' LIMIT 1
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (29)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:49:51 [trace] [system.db.ar.CActiveRecord] lazy loading Albums.tracks
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:49:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:49:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tracks`
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:49:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT `tracks`.`id` AS `t1_c0`, `tracks`.`album` AS `t1_c1`, `tracks`.`song_name` AS `t1_c2`, `tracks`.`artist_name` AS `t1_c3`, `tracks`.`genre` AS `t1_c4`, `tracks`.`path` AS `t1_c5`, `tracks`.`status` AS `t1_c6`, `tracks`.`deleted` AS `t1_c7`, `tracks`.`date_entered` AS `t1_c8`, `tracks`.`date_modified` AS `t1_c9`, `tracks`.`created_by` AS `t1_c10`, `tracks`.`modified_by` AS `t1_c11` FROM `tracks` `tracks`  WHERE (`tracks`.`album`=:ypl0)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (31)
+in C:\xampp\htdocs\music\index.php (13)

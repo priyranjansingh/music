@@ -51,7 +51,7 @@ class Albums extends BaseModel
 		// class name for the relations automatically generated below.
 		return array(
                      'tracks'=>array(self::HAS_MANY, 'Tracks', 'album'),
-                );
+		);
 	}
 
 	/**

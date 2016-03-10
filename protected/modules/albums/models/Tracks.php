@@ -1,12 +1,15 @@
 <?php
 
 /**
- * This is the model class for table "albums".
+ * This is the model class for table "tracks".
  *
- * The followings are the available columns in table 'albums':
+ * The followings are the available columns in table 'tracks':
  * @property string $id
- * @property string $album_name
- * @property string $album_image
+ * @property string $album
+ * @property string $song_name
+ * @property string $artist_name
+ * @property string $genre
+ * @property string $path
  * @property integer $status
  * @property integer $deleted
  * @property string $date_entered
@@ -14,14 +17,14 @@
  * @property string $created_by
  * @property string $modified_by
  */
-class Albums extends BaseModel
+class Tracks extends BaseModel
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'albums';
+		return 'tracks';
 	}
 
 	/**
@@ -32,13 +35,14 @@ class Albums extends BaseModel
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id, album_name, album_image, date_entered, date_modified, created_by, modified_by', 'required'),
+			array('id, song_name, artist_name,album, genre, path, date_entered, date_modified, created_by, modified_by', 'required'),
 			array('status, deleted', 'numerical', 'integerOnly'=>true),
-			array('id, created_by, modified_by', 'length', 'max'=>36),
-			array('album_name, album_image', 'length', 'max'=>128),
+			array('id, album, genre, created_by, modified_by', 'length', 'max'=>36),
+			array('song_name', 'length', 'max'=>128),
+			array('artist_name, path', 'length', 'max'=>256),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, album_name, album_image, status, deleted, date_entered, date_modified, created_by, modified_by', 'safe', 'on'=>'search'),
+			array('id, album, song_name, artist_name, genre, path, status, deleted, date_entered, date_modified, created_by, modified_by', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -50,8 +54,8 @@ class Albums extends BaseModel
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-                     'tracks'=>array(self::HAS_MANY, 'Tracks', 'album'),
-                );
+                    'genre_detail'=>array(self::BELONGS_TO, 'Genres', 'genre'),
+		);
 	}
 
 	/**
@@ -61,8 +65,11 @@ class Albums extends BaseModel
 	{
 		return array(
 			'id' => 'ID',
-			'album_name' => 'Album Name',
-			'album_image' => 'Album Image',
+			'album' => 'Album',
+			'song_name' => 'Song Name',
+			'artist_name' => 'Artist Name',
+			'genre' => 'Genre',
+			'path' => 'Path',
 			'status' => 'Status',
 			'deleted' => 'Deleted',
 			'date_entered' => 'Date Entered',
@@ -91,8 +98,11 @@ class Albums extends BaseModel
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id,true);
-		$criteria->compare('album_name',$this->album_name,true);
-		$criteria->compare('album_image',$this->album_image,true);
+		$criteria->compare('album',$this->album,true);
+		$criteria->compare('song_name',$this->song_name,true);
+		$criteria->compare('artist_name',$this->artist_name,true);
+		$criteria->compare('genre',$this->genre,true);
+		$criteria->compare('path',$this->path,true);
 		$criteria->compare('status',$this->status);
 		$criteria->compare('deleted',$this->deleted);
 		$criteria->compare('date_entered',$this->date_entered,true);
@@ -109,7 +119,7 @@ class Albums extends BaseModel
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Albums the static model class
+	 * @return Tracks the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{

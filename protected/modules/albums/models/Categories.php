@@ -1,12 +1,11 @@
 <?php
 
 /**
- * This is the model class for table "albums".
+ * This is the model class for table "categories".
  *
- * The followings are the available columns in table 'albums':
+ * The followings are the available columns in table 'categories':
  * @property string $id
- * @property string $album_name
- * @property string $album_image
+ * @property string $category
  * @property integer $status
  * @property integer $deleted
  * @property string $date_entered
@@ -14,14 +13,14 @@
  * @property string $created_by
  * @property string $modified_by
  */
-class Albums extends BaseModel
+class Categories extends BaseModel
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'albums';
+		return 'categories';
 	}
 
 	/**
@@ -32,13 +31,13 @@ class Albums extends BaseModel
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id, album_name, album_image, date_entered, date_modified, created_by, modified_by', 'required'),
+			array('id, category, date_entered, date_modified, created_by, modified_by', 'required'),
 			array('status, deleted', 'numerical', 'integerOnly'=>true),
 			array('id, created_by, modified_by', 'length', 'max'=>36),
-			array('album_name, album_image', 'length', 'max'=>128),
+			array('category', 'length', 'max'=>128),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, album_name, album_image, status, deleted, date_entered, date_modified, created_by, modified_by', 'safe', 'on'=>'search'),
+			array('id, category, status, deleted, date_entered, date_modified, created_by, modified_by', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -50,8 +49,7 @@ class Albums extends BaseModel
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-                     'tracks'=>array(self::HAS_MANY, 'Tracks', 'album'),
-                );
+		);
 	}
 
 	/**
@@ -61,8 +59,7 @@ class Albums extends BaseModel
 	{
 		return array(
 			'id' => 'ID',
-			'album_name' => 'Album Name',
-			'album_image' => 'Album Image',
+			'category' => 'Category',
 			'status' => 'Status',
 			'deleted' => 'Deleted',
 			'date_entered' => 'Date Entered',
@@ -91,8 +88,7 @@ class Albums extends BaseModel
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id,true);
-		$criteria->compare('album_name',$this->album_name,true);
-		$criteria->compare('album_image',$this->album_image,true);
+		$criteria->compare('category',$this->category,true);
 		$criteria->compare('status',$this->status);
 		$criteria->compare('deleted',$this->deleted);
 		$criteria->compare('date_entered',$this->date_entered,true);
@@ -109,7 +105,7 @@ class Albums extends BaseModel
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Albums the static model class
+	 * @return Categories the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{

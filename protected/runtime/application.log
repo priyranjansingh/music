@@ -2064,3 +2064,209 @@ Stack trace:
 REQUEST_URI=/music/themes/frontend/assets/albums/album3.jpg
 HTTP_REFERER=http://localhost/music/home
 ---
+2016/03/10 20:41:35 [error] [php] include(Users.php): failed to open stream: No such file or directory (C:\xampp\htdocs\music\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\music\themes\admin\views\layouts\main.php(67): spl_autoload_call()
+#1 C:\xampp\htdocs\music\framework\web\CBaseController.php(126): require()
+#2 C:\xampp\htdocs\music\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 C:\xampp\htdocs\music\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#4 C:\xampp\htdocs\music\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#5 C:\xampp\htdocs\music\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#6 C:\xampp\htdocs\music\framework\web\CBaseController.php(214): CContentDecorator->run()
+#7 C:\xampp\htdocs\music\framework\web\CBaseController.php(308): SiteController->endWidget()
+#8 C:\xampp\htdocs\music\themes\admin\views\layouts\column1.php(4): SiteController->endContent()
+#9 C:\xampp\htdocs\music\framework\web\CBaseController.php(126): require()
+#10 C:\xampp\htdocs\music\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#11 C:\xampp\htdocs\music\framework\web\CController.php(784): SiteController->renderFile()
+#12 C:\xampp\htdocs\music\protected\controllers\SiteController.php(32): SiteController->render()
+#13 C:\xampp\htdocs\music\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\music\framework\web\CController.php(308): CInlineAction->runWithParams()
+#15 C:\xampp\htdocs\music\framework\web\CController.php(286): SiteController->runAction()
+#16 C:\xampp\htdocs\music\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#17 C:\xampp\htdocs\music\framework\web\CWebApplication.php(282): SiteController->run()
+#18 C:\xampp\htdocs\music\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 C:\xampp\htdocs\music\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\music\index.php(13): CWebApplication->run()
+REQUEST_URI=/music/
+in C:\xampp\htdocs\music\themes\admin\views\layouts\main.php (67)
+in C:\xampp\htdocs\music\themes\admin\views\layouts\column1.php (4)
+in C:\xampp\htdocs\music\protected\controllers\SiteController.php (32)
+2016/03/10 20:45:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "properties".' in C:\xampp\htdocs\music\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\music\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 C:\xampp\htdocs\music\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\music\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/music/
+---
+2016/03/10 20:51:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "album".' in C:\xampp\htdocs\music\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\music\framework\web\CWebApplication.php(141): CWebApplication->runController('album')
+#1 C:\xampp\htdocs\music\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\music\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/music/album
+---
+2016/03/10 21:01:16 [error] [php] include(Post.php): failed to open stream: No such file or directory (C:\xampp\htdocs\music\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\music\framework\db\ar\CActiveRecord.php(395): spl_autoload_call()
+#1 C:\xampp\htdocs\music\framework\web\CActiveDataProvider.php(165): model()
+#2 C:\xampp\htdocs\music\framework\web\CActiveDataProvider.php(87): CActiveDataProvider->getModel()
+#3 C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php(22): CActiveDataProvider->__construct()
+#4 C:\xampp\htdocs\music\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#5 C:\xampp\htdocs\music\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\music\framework\web\CController.php(286): DefaultController->runAction()
+#7 C:\xampp\htdocs\music\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#8 C:\xampp\htdocs\music\framework\web\CWebApplication.php(282): DefaultController->run()
+#9 C:\xampp\htdocs\music\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\music\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\music\index.php(13): CWebApplication->run()
+REQUEST_URI=/music/albums
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (22)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:05:17 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php:48)
+Stack trace:
+#0 C:\xampp\htdocs\music\framework\web\CController.php(869): DefaultController->renderFile()
+#1 C:\xampp\htdocs\music\framework\web\CController.php(782): DefaultController->renderPartial()
+#2 C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php(24): DefaultController->render()
+#3 C:\xampp\htdocs\music\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#4 C:\xampp\htdocs\music\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\music\framework\web\CController.php(286): DefaultController->runAction()
+#6 C:\xampp\htdocs\music\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#7 C:\xampp\htdocs\music\framework\web\CWebApplication.php(282): DefaultController->run()
+#8 C:\xampp\htdocs\music\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\music\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\music\index.php(13): CWebApplication->run()
+REQUEST_URI=/music/albums
+in C:\xampp\htdocs\music\protected\modules\albums\views\default\index.php (48)
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (24)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 21:48:57 [error] [exception.CException] exception 'CException' with message 'Property "Albums.genre_details" is not defined.' in C:\xampp\htdocs\music\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\music\framework\db\ar\CActiveRecord.php(145): CComponent->__get('genre_details')
+#1 C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php(30): CActiveRecord->__get('genre_details')
+#2 [internal function]: DefaultController->actionDetail('bd30fd8b-5b78-e...')
+#3 C:\xampp\htdocs\music\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(DefaultController), Array)
+#4 C:\xampp\htdocs\music\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(DefaultController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\music\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\music\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\music\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\music\framework\web\CWebApplication.php(282): CController->run('detail')
+#9 C:\xampp\htdocs\music\framework\web\CWebApplication.php(141): CWebApplication->runController('albums/default/...')
+#10 C:\xampp\htdocs\music\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\music\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/music/albums/detail?album=bd30fd8b-5b78-e2e7-a472-56dc8f45928e
+HTTP_REFERER=http://localhost/music/albums
+---
+2016/03/10 21:49:30 [error] [exception.CException] exception 'CException' with message 'Property "Albums.genres" is not defined.' in C:\xampp\htdocs\music\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\music\framework\db\ar\CActiveRecord.php(145): CComponent->__get('genres')
+#1 C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php(30): CActiveRecord->__get('genres')
+#2 [internal function]: DefaultController->actionDetail('bd30fd8b-5b78-e...')
+#3 C:\xampp\htdocs\music\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(DefaultController), Array)
+#4 C:\xampp\htdocs\music\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(DefaultController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\music\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\music\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\music\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\music\framework\web\CWebApplication.php(282): CController->run('detail')
+#9 C:\xampp\htdocs\music\framework\web\CWebApplication.php(141): CWebApplication->runController('albums/default/...')
+#10 C:\xampp\htdocs\music\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\music\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/music/albums/detail?album=bd30fd8b-5b78-e2e7-a472-56dc8f45928e
+HTTP_REFERER=http://localhost/music/albums
+---
+2016/03/10 21:49:57 [error] [exception.CException] exception 'CException' with message 'Property "Albums.genre" is not defined.' in C:\xampp\htdocs\music\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\music\framework\db\ar\CActiveRecord.php(145): CComponent->__get('genre')
+#1 C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php(30): CActiveRecord->__get('genre')
+#2 [internal function]: DefaultController->actionDetail('bd30fd8b-5b78-e...')
+#3 C:\xampp\htdocs\music\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(DefaultController), Array)
+#4 C:\xampp\htdocs\music\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(DefaultController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\music\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\music\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\music\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\music\framework\web\CWebApplication.php(282): CController->run('detail')
+#9 C:\xampp\htdocs\music\framework\web\CWebApplication.php(141): CWebApplication->runController('albums/default/...')
+#10 C:\xampp\htdocs\music\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\music\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/music/albums/detail?album=bd30fd8b-5b78-e2e7-a472-56dc8f45928e
+HTTP_REFERER=http://localhost/music/albums
+---
+2016/03/10 22:18:33 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php:30)
+Stack trace:
+#0 C:\xampp\htdocs\music\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\music\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\music\framework\web\CController.php(286): DefaultController->runAction()
+#3 C:\xampp\htdocs\music\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#4 C:\xampp\htdocs\music\framework\web\CWebApplication.php(282): DefaultController->run()
+#5 C:\xampp\htdocs\music\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\xampp\htdocs\music\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\music\index.php(13): CWebApplication->run()
+REQUEST_URI=/music/albums/detail?album=bd30fd8b-5b78-e2e7-a472-56dc8f45928e
+in C:\xampp\htdocs\music\protected\modules\albums\controllers\DefaultController.php (30)
+in C:\xampp\htdocs\music\index.php (13)
+2016/03/10 22:40:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/extra-images/album-img.jpg".' in C:\xampp\htdocs\music\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\music\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/extra-im...')
+#1 C:\xampp\htdocs\music\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\music\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/music/assets/extra-images/album-img.jpg
+HTTP_REFERER=http://localhost/music/albums/detail?album=bd30fd8b-5b78-e2e7-a472-56dc8f45928e
+---
+2016/03/10 22:42:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Album Name.PNG".' in C:\xampp\htdocs\music\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\music\framework\web\CWebApplication.php(141): CWebApplication->runController('Album Name.PNG')
+#1 C:\xampp\htdocs\music\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\music\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/music/Album%20Name.PNG
+HTTP_REFERER=http://localhost/music/albums/detail?album=bd30fd8b-5b78-e2e7-a472-56dc8f45928e
+---
+2016/03/10 22:45:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "assets".' in C:\xampp\htdocs\music\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\music\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\music\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\music\framework\web\CWebApplication.php(141): CWebApplication->runController('albums/default/...')
+#3 C:\xampp\htdocs\music\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\music\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/music/albums/assets/tracks/Mark%20J%20-%20Marvelous%20Light.mp3
+HTTP_REFERER=http://localhost/music/albums/detail?album=bd30fd8b-5b78-e2e7-a472-56dc8f45928e
+---
+2016/03/10 22:45:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "assets".' in C:\xampp\htdocs\music\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\music\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\music\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\music\framework\web\CWebApplication.php(141): CWebApplication->runController('albums/default/...')
+#3 C:\xampp\htdocs\music\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\music\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/music/albums/assets/tracks/Mark%20J%20-%20Marvelous%20Light.mp3
+HTTP_REFERER=http://localhost/music/albums/detail?album=bd30fd8b-5b78-e2e7-a472-56dc8f45928e
+---
+2016/03/10 22:45:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "assets".' in C:\xampp\htdocs\music\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\music\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\music\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\music\framework\web\CWebApplication.php(141): CWebApplication->runController('albums/default/...')
+#3 C:\xampp\htdocs\music\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\music\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/music/albums/assets/tracks/Mark%20J%20-%20Marvelous%20Light.mp3
+HTTP_REFERER=http://localhost/music/albums/detail?album=bd30fd8b-5b78-e2e7-a472-56dc8f45928e
+---
+2016/03/10 22:45:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "assets".' in C:\xampp\htdocs\music\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\music\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\music\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\music\framework\web\CWebApplication.php(141): CWebApplication->runController('albums/default/...')
+#3 C:\xampp\htdocs\music\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\music\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/music/albums/assets/tracks/Mark%20J%20-%20Marvelous%20Light.mp3
+HTTP_REFERER=http://localhost/music/albums/detail?album=bd30fd8b-5b78-e2e7-a472-56dc8f45928e
+---
